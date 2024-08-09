@@ -23,6 +23,7 @@ public class Cat {
     public void eat(){
         System.out.println("Tôi tên là "+this.catName);
         System.out.println(this.catName + " Đang ăn");
+        System.out.println("Giới tính "+(this.sex ? "Nam" : " Nữ"));
 
     }
 
